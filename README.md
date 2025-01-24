@@ -15,7 +15,7 @@ This function will receive the event and log it.
 3. Enter Function name: EC2StateChangeHandler
 4. Choose Runtime: Python 3.9 (or another language).
 5. Click Create function.
-6. In the Code source section, replace the default code with: # with code from eventlog.py file in src folder
+6. In the Code source section, replace the default code with: # with code from event_log.py file in src folder
 7. Click Deploy
 
 **Step 2: Create an EventBridge Rule:**
