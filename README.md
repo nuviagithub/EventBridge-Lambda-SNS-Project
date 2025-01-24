@@ -3,7 +3,7 @@
 This project involves setting up an AWS architecture to monitor changes in the state of EC2 instances and send real-time notifications. The solution leverages Amazon EventBridge to detect state change events for EC2 instances. When a state change is identified (e.g., from "running" to "stopped"), an AWS Lambda function is triggered. The Lambda function processes the event and publishes a notification to an Amazon SNS topic, which then delivers the message to subscribed endpoints, such as email or SMS.
 
 This setup ensures efficient and automated monitoring of EC2 instance states, enabling prompt action through real-time notifications.
-
+![Automate EC2 status change (4)](https://github.com/user-attachments/assets/61d57639-db65-49b3-8b10-cfd58abac3d4)
 **Step-by-Step Guide:**
 
 **Step 1: Create a Lambda Function (Target)**
