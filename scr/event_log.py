@@ -1,3 +1,5 @@
+######### Collaboration between Blossom & Eric ##########
+
 import json
 
 def lambda_handler(event, context):
